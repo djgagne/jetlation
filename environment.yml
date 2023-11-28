@@ -1,0 +1,25 @@
+name: jetlation
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy
+  - scipy
+  - matplotlib
+  - xarray
+  - netcdf4
+  - zarr
+  - pandas
+  - pyyaml
+  - pytest
+  - pip
+  - pyproj
+  - cartopy
+  - dask
+  - pygrib
+  - jupyter
+  - jupyterlab
+  - tqdm
+  - s3fs
+  - pip:
+      - hagelslag
